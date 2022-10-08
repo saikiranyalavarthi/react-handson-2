@@ -1,0 +1,62 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(
+      aquamarine,
+      pink,
+      gray,
+      white
+    );
+  }
+  
+  
+  
+  
+  input[type=text]{
+  height:30px;
+  width:200px;
+  text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: rgb(126, 143, 34);
+    font-size: 16px;
+  }
+  button{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: rgb(207, 32, 146);
+    border: 2px solid black;
+  
+  
+  }
+  
+  label{
+    font-weight: bold;
+    font-size:20px;
+  }
+  #innerbox{
+  width:fit-content;
+   height: fit-content; 
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: pink;
+    
+  }
+  
+  #outerbox{
+    width: 70%;
+    border: 2px solid rgb(59, 109, 167);
+    padding: 10px;
+    background-color: rgb(164, 22, 133);
+     margin-left: 120px; 
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:12px;
+    
+  }
+  
